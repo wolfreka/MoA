@@ -17,6 +17,10 @@ from time import sleep
 
 from dotenv import load_dotenv
 
+# proxy
+# os.environ["http_proxy"] = "http://127.0.0.1:1080"
+# os.environ["https_proxy"] = "http://127.0.0.1:1080"
+
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
